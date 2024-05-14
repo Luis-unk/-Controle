@@ -13,12 +13,12 @@ técnologias utilizadas até o momento:
 
 --- TELA LOGIN ---
 
-<img src="/gitImages/telaLogin.png">
+<img src="/frontend/gitImages/telaLogin.png">
 
 --- TELA CADASTRO ---
 
-<img src="/gitImages/telaCadastroREADME.png">
+<img src="/frontend/gitImages/telaCadastroREADME.png">
 
 --- TELA MENU USUARIO ---
 
-<img src="/gitImages/userTela.png">
+<img src="/frontend/gitImages/userTela.png">
