@@ -9,7 +9,7 @@ técnologias utilizadas até o momento:
 
 -- Ideia do projeto minha, deu vontade de fazer e estou fazendo :)
 
-#TELAS DO SITE (EM ANDAMENTO)
+# TELAS DO SITE (EM ANDAMENTO)
 
 --- TELA LOGIN ---
 
