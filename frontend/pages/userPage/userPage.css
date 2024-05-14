@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    min-height: 700px;
+    justify-content: center;
+}
+
+.container-first{
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-mid-left {
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.container-mid-right {
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container-end{
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-user {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 150px;
+    width: 200px;
+    background-color: #E2E2E2;
+}
+
+#tit-user {
+    padding: 15px;
+    margin-top: 80px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.minha-carteira {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 220px;
+    width: 200px;
+    color: white;
+    background-color: #fa5300;
+}
+
+#tit-minha {
+    margin-left: 15px;
+    margin-top: 180px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.config {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 220px;
+    width: 200px;
+    background-color:#E2E2E2;
+}
+
+#tit-config {
+    padding: 15px;
+    margin-top: 160px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.sair {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 220px;
+    width: 200px;
+    background-color:#E2E2E2;
+}
+
+#tit-sair {
+    margin-left: 15px;
+    margin-top: 180px;
+    text-align: start;
+    font-size: 16px;
+}
+
+
+.efetuar-transacao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 290px;
+    width: 200px;
+    color: white;
+    background-color: #FA0644;
+}
+
+#tit-efetuar {
+    margin-top: 150px;
+    margin-left: 15px;
+}
+
+#tit-trans {
+    margin-left: 15px;
+}
+
+.vazio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 220px;
+    width: 200px;
+    color: white;
+    background-color: #AA02FF;
+}
+
+#tit-breve {
+    padding: 15px;
+    margin-top: 160px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.quemSomos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 150px;
+    width: 200px;
+    color: white;
+    background-color: #FA0644;
+}
+
+
+#tit-quemSomos {
+    padding: 15px;
+    margin-top: 80px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.personalizado {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+    margin-right: 15px;
+    height: 290px;
+    width: 200px;
+    background-image: url("/images/imagemMenuUser.jpg");
+}
+
+#tit-controle {
+    padding: 15px;
+    margin-top: 200px;
+    text-align: start;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}

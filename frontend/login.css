@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: #fa5300;
+    border-radius: 5%;
+    height: 500px;
+    width: 400px;
+    overflow: auto;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+h1 {
+    margin-top: 80px;
+    align-items: start;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+#email-login {
+    margin-top: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 2px;
+}
+
+
+#senha-login {
+    margin-top: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 2px;
+}
+
+#name-input-email {
+    outline: none;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#name-input-senha {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+#button-login {
+    margin-top: 20px;
+    border: none;
+    background-color: #fa5300;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#button-cadastrar {
+    margin-top: 20px;
+    border: none;
+    background-color: #fa5300;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
